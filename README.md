@@ -18,7 +18,7 @@ It is designed for students with little or no programming experience.
 ---
 
 ## 📂 Repo Structure
-- `lectures/` → My notes and small code snippets from each lecture  
+- `lecture1-n/` → Each lecture folder which contains lecture notes and small code snippets from each lecture  
 - `psets/` → Problem sets (in progress)  
 - `exercises/` → Short practice problems  
 
@@ -26,7 +26,7 @@ It is designed for students with little or no programming experience.
 
 ## 🎯 Purpose
 I am taking this course to:
-- Strengthen my understanding of **Python**  
+- Strengthen my understanding of **Python** 
 - Build **systematic problem-solving habits**  
 - Prepare for more advanced computer science topics like algorithms, data structures, and systems  
 
