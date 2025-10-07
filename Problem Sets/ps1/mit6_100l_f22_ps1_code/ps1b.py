@@ -8,7 +8,7 @@
 ##########################################################################################
 yearly_salary = float(input("Enter your yearly salary: "))
 portion_saved = float(input("Enter the percent of your salary to save, as a decimal: "))
-cost_of_dream_house = float(input("The cost of your dream house is: "))
+cost_of_dream_home = float(input("The cost of your dream house is: "))
 semi_annual_raise = float(input("Enter the semi-annual raise, as a decimal: "))
 
 
@@ -20,7 +20,7 @@ monthly_salary = yearly_salary/12
 
 # down payment of the house
 portion_down_payment = 0.25 # (25 %)
-down_payment_of_house = cost_of_dream_house * portion_down_payment
+down_payment_of_house = cost_of_dream_home * portion_down_payment
 
 
 # saving related information
