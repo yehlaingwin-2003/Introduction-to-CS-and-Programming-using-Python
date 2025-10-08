@@ -147,10 +147,49 @@ print(square_list(L))
 
 
 ###############################################################################
-## 
+## Finger Exercise
 ###############################################################################
 
+def all_true(n, Lf):
+    """ n is an int
+        Lf is a list of functions that take in an int and return a Boolean
+    Returns True if each and every function in Lf returns True when called 
+    with n as a parameter. Otherwise returns False. 
+    """
+    # Your code here
+    new_list = []
+    for i in range(len(Lf)):
+        new_list.append(Lf[i](n))
+        
+    if False in new_list:
+        return False
+    else: 
+        return True
+        
+        
     
+
+def is_even(n):
+    if (n % 2) == 0:
+        return True
+    else:
+        return False
+    
+def is_greater_than_one(n):
+    if n > 1:
+        return True
+    else: 
+        return False
+    
+def is_an_integer(n):
+    if type(n) == "Number":
+        return True
+    else: 
+        return False
+    
+
+# Examples:    
+print(all_true(6, [is_even, is_greater_than_one])) # prints 6
     
     
     
